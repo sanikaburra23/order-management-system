@@ -2,50 +2,8 @@
 
 A backend service built using the Dropwizard framework to manage and process items, orders, and payments.
 
+<img width="1178" height="1228" alt="image" src="https://github.com/user-attachments/assets/af643550-4087-46de-bdab-9539fb60342e" />
 
- ### project structure
- order_management_system_dropwizard/
-├── gradle/
-│   └── wrapper/
-│       ├── gradle-wrapper.jar
-│       └── gradle-wrapper.properties
-├── src/
-│   ├── main/
-│   │   ├── java/
-│   │   │   └── com/
-│   │   │       └── b2r/
-│   │   │           └── ordermgmt/
-│   │   │               ├── core/
-│   │   │               │   ├── Item.java
-│   │   │               │   ├── Order.java
-│   │   │               │   ├── OrderItem.java
-│   │   │               │   └── Payment.java
-│   │   │               ├── db/
-│   │   │               │   ├── ItemDAO.java
-│   │   │               │   ├── OrderDAO.java
-│   │   │               │   └── PaymentDAO.java
-│   │   │               ├── exceptions/
-│   │   │               │   ├── InsufficientStockException.java
-│   │   │               │   ├── InvalidOrderStateException.java
-│   │   │               │   └── ResourceNotFoundException.java
-│   │   │               ├── resources/
-│   │   │               │   ├── ItemResource.java
-│   │   │               │   ├── OrderResource.java
-│   │   │               │   └── PaymentResource.java
-│   │   │               ├── service/
-│   │   │               │   └── OrderService.java
-│   │   │               ├── OrderManagementApplication.java
-│   │   │               └── OrderManagementConfiguration.java
-│   │   └── resources/
-│   └── test/
-├── .gitignore
-├── build.gradle.kts
-├── config.yml
-├── gradlew
-├── gradlew.bat
-└── settings.gradle.kts
-
----
 
 ## Architectural Overview
 This system is organized using a clean, layered architecture to maintain a strict separation of concerns:
